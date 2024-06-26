@@ -1,5 +1,4 @@
 # SanText
-Differential Privacy for Text Analytics via Natural Text Sanitizationy
 Code for Findings of ACL-IJCNLP 2021 **"[Differential Privacy for Text Analytics via Natural Text Sanitization](https://arxiv.org/pdf/2106.01221.pdf)"**
 
 ```bib
@@ -10,17 +9,13 @@ Code for Findings of ACL-IJCNLP 2021 **"[Differential Privacy for Text Analytics
   year      = {2021},
   }
 ```
-
 ## Setup Environment
-
 ### Install required packages
-
 ```shell
 git clone https://github.com/xiangyue9607/SanText.git
 cd SanText
 pip install -r requirements.txt
 ```
-
 ## Run
 
 ### SST GloVe SANTEXT
