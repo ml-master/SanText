@@ -12,7 +12,6 @@ Code for Findings of ACL-IJCNLP 2021 **"[Differential Privacy for Text Analytics
 ## Setup Environment
 ### Install required packages
 ```shell
-git clone https://github.com/xiangyue9607/SanText.git
 cd SanText
 pip install -r requirements.txt
 ```
