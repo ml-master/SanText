@@ -67,3 +67,5 @@ python run_SanText.py --task FakeNews --method SanText_plus --epsilon 3.0 --embe
 ```
 python run_glue.py --model_name_or_path ./base_bert_models --task_name FakeNews --do_train --do_eval --data_dir ./output_SanText_plus_bert/FakeNews/eps_3.00/sword_0.90_p_0.30 --max_seq_length 128 --per_device_train_batch_size 16 --per_device_eval_batch_size 16 --learning_rate 2e-5 --num_train_epochs 3.0 --output_dir ./tmp/fakenews-bert-sanitize/ --overwrite_output_dir --overwrite_cache --save_steps 2000
 ```
+
+*数据和运行结果在release中*
